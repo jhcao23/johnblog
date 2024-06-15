@@ -1,0 +1,19 @@
+graph TD
+    A[Target Revenue: $100,000]
+    B[Revenue Percentage: 40%]
+    C[Total Revenue Needed: $250,000]
+    D[Average Case Size: $5,000]
+    E[Number of Cases Needed: 50]
+    F[Average Closing Ratio: 3:1]
+    G[Appointments Needed: 150]
+    H[Average Opening Ratio: 3:1]
+    I[Prospects to Contact: 450]
+    J[Average Approval Ratio: 10:1]
+    K[Initial Contacts Needed: 4500]
+
+    A -->|40%| B
+    B --> C
+    C -->|$250,000 / $5,000| E
+    E -->|50 cases * 3| G
+    G -->|150 appointments * 3| I
+    I -->|450 prospects * 10| K
